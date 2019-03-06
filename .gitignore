@@ -43,3 +43,16 @@ vers/
 .DS_Store
 _build
 pip-wheel-metadata
+# PyBuilder
+target/
+.pybuild/
+
+# debuild
+debian/*.debhelper
+debian/*.substvars
+debian/.debhelper/
+debian/debhelper*
+debian/python-crossbar*
+debian/python3-crossbar*
+debian/files
+.pytest_cache/
