@@ -1,0 +1,2 @@
+extend-diff-ignore = "^[^/]*[.]egg-info/"
+git-ref=v19.2.1
