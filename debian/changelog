@@ -1,4 +1,4 @@
-crossbar (19.2.1-1) stretch; urgency=medium
+crossbar (19.2.1+ind1) testing; urgency=medium
 
   * Initial release
 
