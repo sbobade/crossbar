@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+export PYBUILD_NAME=crossbar
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild
+
+# We are going to skip dh_auto_test for this package since it causes spurious
+# failures on twisted/asyncio selection even when present.
+override_dh_auto_test:
+

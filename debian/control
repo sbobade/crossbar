@@ -1,0 +1,47 @@
+Source: crossbar
+Section: python
+Priority: optional
+Maintainer: Joe MacDonald <joe_macdonald@mentor.com>
+Build-Depends: debhelper,
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-twisted,
+               python3-all,
+               python3-setuptools,
+               python3-twisted
+Standards-Version: 4.1.3
+Homepage: https://github.com/crossbario/crossbar
+
+Package: python-crossbar
+Architecture: all
+Depends: ${python-minimal:Depends}, ${misc:Depends}
+Suggests: python-crossbar-doc
+Description: WAMP application router (Python 2)
+ Crossbar.io is an open source networking platform for distributed and
+ microservice applications. It implements the open Web Application Messaging
+ Protocol (WAMP), is feature rich, scalable, robust and secure.
+ .
+ This package installs the library for Python 2.
+
+Package: python3-crossbar
+Architecture: all
+Depends: ${python3-minimal:Depends}, ${misc:Depends}
+Suggests: python-crossbar-doc
+Description: WAMP application router (Python 3)
+ Crossbar.io is an open source networking platform for distributed and
+ microservice applications. It implements the open Web Application Messaging
+ Protocol (WAMP), is feature rich, scalable, robust and secure.
+ .
+ This package installs the library for Python 3.
+
+Package: python-crossbar-doc
+Architecture: all
+Section: doc
+Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Description: WAMP application router (common documentation)
+ Crossbar.io is an open source networking platform for distributed and
+ microservice applications. It implements the open Web Application Messaging
+ Protocol (WAMP), is feature rich, scalable, robust and secure.
+ .
+ This is the common documentation package.

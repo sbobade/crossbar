@@ -1,0 +1,2 @@
+version=3
+https://pypi.debian.net/crossbar/crossbar-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
