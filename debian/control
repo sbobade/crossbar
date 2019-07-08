@@ -6,10 +6,8 @@ Build-Depends: debhelper,
                dh-python,
                python-all,
                python-setuptools,
-               python-twisted,
                python3-all,
                python3-setuptools,
-               python3-twisted
 Standards-Version: 4.1.3
 Homepage: https://github.com/crossbario/crossbar
 
